@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { Component /* , useState */ } from 'react';
 // import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import MiradorMenuButton from 'mirador/dist/es/src/containers/MiradorMenuButton';
