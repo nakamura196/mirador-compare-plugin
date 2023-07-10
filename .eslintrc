@@ -1,0 +1,17 @@
+{
+  "env": {
+    "jest/globals": true
+  },
+  "extends": ["airbnb"],
+  "globals": {
+    "page": true,
+    "document": true
+  },
+  "parser": "@babel/eslint-parser",
+  "plugins": ["jest"],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prefer-stateless-function": "off",
+    "react/jsx-props-no-spreading": "off"
+  }
+}
