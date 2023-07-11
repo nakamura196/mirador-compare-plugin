@@ -1,4 +1,4 @@
-import React, { Component /* , useState */ } from 'react';
+import React, { Component /* , useState , useEffect */ } from 'react';
 // import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import MiradorMenuButton from 'mirador/dist/es/src/containers/MiradorMenuButton';
@@ -35,12 +35,25 @@ const compareReducer = (state = {}, action) => {
     };
   }
 
+  if (action.type === 'SET_SCROLL_TOP') {
+    return {
+      ...state,
+      scrollTop: action.scrollTop,
+    };
+  }
+
   return state;
 };
 
 class CompareComponent extends Component {
   handleClose() {
-    const { closeDialog } = this.props;
+    const { closeDialog, setScrollTop } = this.props;
+
+    const element = document.getElementById('scrollComponent');
+    const { scrollTop } = element;
+
+    setScrollTop(scrollTop);
+
     closeDialog();
   }
 
@@ -52,13 +65,18 @@ class CompareComponent extends Component {
   }
 
   compareItem(data) {
-    const { compare } = this.props;
+    const element = document.getElementById('scrollComponent');
+    const { scrollTop } = element;
+
+    const { compare, setScrollTop } = this.props;
     data.forEach((item) => {
       const {
         windowId, boxToZoom,
       } = item;
       compare(windowId, boxToZoom);
     });
+
+    setScrollTop(scrollTop);
   }
 
   render() {
@@ -156,6 +174,14 @@ class CompareComponent extends Component {
 
     // .join(', ')
 
+    // eslint-disable-next-line no-undef
+    window.setTimeout(() => {
+      const scrollComponent = document.getElementById('scrollComponent');
+      if (scrollComponent) {
+        scrollComponent.scrollTop = state.compareReducer ? state.compareReducer.scrollTop : 0;
+      }
+    }, 5);
+
     return (
       <>
         <MiradorMenuButton
@@ -177,11 +203,17 @@ class CompareComponent extends Component {
             maxWidth="xs"
             open
             style={{ height: '60vh' }}
+            BackdropProps={{ style: { backgroundColor: 'transparent' } }}
+            onClose={(event, reason) => {
+              if (reason === 'backdropClick') {
+                this.handleClose();
+              }
+            }}
           >
             <DialogTitle disableTypography>
               <Typography variant="h2">Annotations</Typography>
             </DialogTitle>
-            <ScrollIndicatedDialogContent>
+            <ScrollIndicatedDialogContent id="scrollComponent">
 
               <Table size="small" aria-label="simple table">
                 <TableHead>
@@ -225,6 +257,7 @@ class CompareComponent extends Component {
 }
 
 CompareComponent.propTypes = {
+  setScrollTop: PropTypes.func,
   compare: PropTypes.func,
   openDialog: PropTypes.func,
   closeDialog: PropTypes.func,
@@ -235,6 +268,7 @@ CompareComponent.propTypes = {
 };
 
 CompareComponent.defaultProps = {
+  setScrollTop: () => { },
   compare: () => { },
   openDialog: () => { },
   closeDialog: () => { },
@@ -262,6 +296,7 @@ const mapDispatchToProps = (dispatch) => ({
   compare: (windowId, boxToZoom) => dispatch(compareAction(windowId, boxToZoom)),
   openDialog: (currentTarget) => dispatch({ type: 'OPEN_WINDOW_DIALOG', target: currentTarget }),
   closeDialog: () => dispatch({ type: 'CLOSE_WINDOW_DIALOG' }),
+  setScrollTop: (scrollTop) => dispatch({ type: 'SET_SCROLL_TOP', scrollTop }),
 });
 
 export default {
