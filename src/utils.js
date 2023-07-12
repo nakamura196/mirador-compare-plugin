@@ -1,60 +1,68 @@
-import { getAnnotations } from 'mirador/dist/es/src/state/selectors/annotations';
-
 function getRows(state) {
   const { windows } = state;
   const windowIdCanvasUriMap = {};
   Object.keys(windows).forEach((windowId) => {
-    const canvasUri = windows[windowId].canvasId;
-    windowIdCanvasUriMap[canvasUri] = windowId;
+    const window = windows[windowId];
+    const { manifestId } = window;
+    windowIdCanvasUriMap[manifestId] = windowId;
   });
 
-  const annotations = getAnnotations(state);
+  const { manifests } = state;
+
+  const canvases = {};
+
+  Object.keys(manifests).forEach((manifestUri) => {
+    const windowId = windowIdCanvasUriMap[manifestUri];
+    const manifest = manifests[manifestUri];
+    const { json } = manifest;
+    json.items.forEach((item) => {
+      const canvasUri = item.id;
+      const annotationsOnCanvas = item.annotations;
+      annotationsOnCanvas.forEach((annotation) => {
+        const annotationsList = annotation.items;
+
+        if (!canvases[windowId]) {
+          canvases[windowId] = {};
+        }
+
+        canvases[windowId][canvasUri] = annotationsList; // .slice(0, 20);
+      });
+    });
+  });
 
   const ids = {};
 
-  // Function to handle each item
-  const handleItem = (item, canvasUri) => {
-    const { value } = item.body;
-    const id = value.split(' ')[0];
-    const label = value.split(' ')[1];
+  Object.keys(canvases).forEach((windowId) => {
+    Object.keys(canvases[windowId]).forEach((canvasUri) => {
+      const annotationsOnCanvas = canvases[windowId][canvasUri];
+      annotationsOnCanvas.forEach((annotation) => {
+        const { body, cid, target } = annotation;
+        const label = body.value;
 
-    const cid = id.split('-')[1];
+        if (!ids[cid]) {
+          ids[cid] = {
+            labels: [],
+            windows: [],
+          };
+        }
 
-    if (!ids[cid]) {
-      ids[cid] = {
-        // label: value,
-        labels: [],
-        windows: [],
-      };
-    }
+        const [x, y, width, height] = target.split('#xywh=')[1].split(',');
 
-    const { target } = item;
-    const [x, y, width, height] = target.split('#xywh=')[1].split(',');
+        const boxToZoom = {
+          x: Number(x),
+          y: Number(y),
+          width: Number(width),
+          height: Number(height),
+        };
 
-    const boxToZoom = {
-      x: Number(x),
-      y: Number(y),
-      width: Number(width),
-      height: Number(height),
-    };
+        // : windowIdCanvasUriMap[canvasUri]
 
-    ids[cid].windows.push({
-      canvasUri, windowId: windowIdCanvasUriMap[canvasUri], boxToZoom,
-    });
+        ids[cid].windows.push({
+          canvasUri, windowId, boxToZoom,
+        });
 
-    ids[cid].labels.push(label);
-  };
-
-  // Function to handle each annotation
-  const handleAnnotation = (annotations_, canvasUri, annosUri) => {
-    const { items } = annotations_[canvasUri][annosUri].json;
-    items.forEach((item) => handleItem(item, canvasUri));
-  };
-
-  // Main processing
-  Object.keys(annotations).forEach((canvasUri) => {
-    Object.keys(annotations[canvasUri]).forEach((annosUri) => {
-      handleAnnotation(annotations, canvasUri, annosUri);
+        ids[cid].labels.push(label);
+      });
     });
   });
 

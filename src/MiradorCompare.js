@@ -20,6 +20,10 @@ import TableRow from '@material-ui/core/TableRow';
 import Draggable from 'react-draggable';
 import Paper from '@material-ui/core/Paper';
 
+import { batch } from 'react-redux';
+import {
+  all, put, select, takeEvery, delay, call,
+} from 'redux-saga/effects';
 import getRows from './utils';
 
 // eslint-disable-next-line default-param-last
@@ -49,13 +53,6 @@ const compareReducer = (state = {}, action) => {
     return {
       ...state,
       xy: action.xy,
-    };
-  }
-
-  if (action.type === 'SET_COMPARE') {
-    return {
-      ...state,
-      compare: action.compare,
     };
   }
 
@@ -94,16 +91,16 @@ class CompareComponent extends Component {
     setXY({ x, y });
   };
 
-  compareItem(data) {
+  compareItem(data, canvases) {
     const element = document.getElementById('scrollComponent');
     const { scrollTop } = element;
 
-    const { compare, setScrollTop } = this.props;
+    const { compareDispatcher, setScrollTop } = this.props;
     data.forEach((item) => {
       const {
-        windowId, boxToZoom,
+        windowId, boxToZoom, canvasUri,
       } = item;
-      compare(windowId, boxToZoom);
+      compareDispatcher(windowId, boxToZoom, canvasUri, canvases);
     });
 
     setScrollTop(scrollTop);
@@ -115,10 +112,11 @@ class CompareComponent extends Component {
     const state = this.props;
 
     const {
-      xy, isDialogOpen, scrollTop, rows,
+      xy, isDialogOpen, scrollTop, rows, canvases,
     } = state;
 
     const rowsObj = JSON.parse(rows);
+    const canvasesObj = JSON.parse(canvases);
 
     // eslint-disable-next-line no-undef
     window.setTimeout(() => {
@@ -174,7 +172,7 @@ class CompareComponent extends Component {
                     <TableRow
                       hover
                       style={{ cursor: 'pointer' }}
-                      onClick={() => this.compareItem(row.windows)}
+                      onClick={() => this.compareItem(row.windows, canvasesObj)}
                       key={row.id}
                       sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                     >
@@ -210,7 +208,7 @@ CompareComponent.propTypes = {
   isDialogOpen: PropTypes.number,
   scrollTop: PropTypes.number,
   setScrollTop: PropTypes.func,
-  compare: PropTypes.func,
+  compareDispatcher: PropTypes.func,
   openDialog: PropTypes.func,
   closeDialog: PropTypes.func,
   setXY: PropTypes.func,
@@ -223,35 +221,111 @@ CompareComponent.defaultProps = {
   scrollTop: 0,
   isDialogOpen: 0,
   setScrollTop: () => { },
-  compare: () => { },
+  compareDispatcher: () => { },
   openDialog: () => { },
   closeDialog: () => { },
   setXY: () => { },
   rows: [],
 };
 
-const compareAction = (windowId, boxToZoom) => (dispatch) => {
+const compareAction = (windowId, boxToZoom, canvasUri, canvases, type = 1) => (dispatch) => {
+  // async
+  // dispatch(mirador.actions.setCanvas(windowId, canvasUri));
+
+  const action1 = mirador.actions.setCanvas(windowId, canvasUri);
+
   const zoomCenter = {
     x: boxToZoom.x + boxToZoom.width / 2,
     y: boxToZoom.y + boxToZoom.height / 2,
   };
 
-  dispatch(mirador.actions.updateViewport(windowId, {
+  const action2 = mirador.actions.updateViewport(windowId, {
     x: zoomCenter.x,
     y: zoomCenter.y,
     zoom: 1 / boxToZoom.width,
-  }));
+  });
+
+  // dispatch();
+
+  /*
+  batch(() => {
+    dispatch(action1);
+    dispatch(action2);
+  });
+  */
+
+  if (canvases.indexOf(canvasUri) === -1) {
+    dispatch(action1);
+  } else {
+    dispatch(action2);
+  }
+  /*
+
+  if (type === 1) {
+    dispatch(action1);
+  } else {
+    dispatch(action2);
+  }
+  */
+
+  // dispatch(action1);
+  // dispatch(action2);
+
+  // disable eslint
+
+  /*
+  call(all([
+    put(action1),
+    put(action2),
+  ]));
+  */
+
+  // const firstAction = yield take([action1, action2])
+
+  // await dispatch(action2);
+
+  /*
+  window.setTimeout(() => {
+    // dispatch(action2);
+  }, 3);
+  */
+
+  /*
+  */
+
+  /*
+  await Promise.all([
+    dispatch(mirador.actions.setCanvas(windowId, canvasUri)),
+    dispatch(mirador.actions.updateViewport(windowId, {
+      x: zoomCenter.x,
+      y: zoomCenter.y,
+      zoom: 1 / boxToZoom.width,
+    })),
+  ]);
+  */
 };
 
-const mapStateToProps = (state) => ({
-  rows: JSON.stringify(getRows(state)),
-  scrollTop: state.compareReducer ? state.compareReducer.scrollTop : 0,
-  xy: state.compareReducer ? state.compareReducer.xy : { x: 0, y: 0 },
-  isDialogOpen: state.compareReducer ? state.compareReducer.isDialogOpen : 0,
-});
+const mapStateToProps = (state) => {
+  const canvases = [];
+  const { windows } = state;
+  for (const windowId in windows) {
+    canvases.push(windows[windowId].canvasId);
+  }
+  return {
+    canvases: JSON.stringify(canvases),
+    rows: JSON.stringify(getRows(state)),
+    scrollTop: state.compareReducer ? state.compareReducer.scrollTop : 0,
+    xy: state.compareReducer ? state.compareReducer.xy : { x: 0, y: 0 },
+    isDialogOpen: state.compareReducer ? state.compareReducer.isDialogOpen : 0,
+  };
+};
 
 const mapDispatchToProps = (dispatch) => ({
-  compare: (windowId, boxToZoom) => dispatch(compareAction(windowId, boxToZoom)),
+  compareDispatcher:
+    (windowId, boxToZoom, canvasUri, canvases) => {
+      dispatch(compareAction(windowId, boxToZoom, canvasUri, canvases, 1));
+      // dispatch(compareAction(windowId, boxToZoom, canvasUri, canvases, 2));
+    },
   openDialog: () => dispatch({ type: 'OPEN_WINDOW_DIALOG' }),
   closeDialog: () => dispatch({ type: 'CLOSE_WINDOW_DIALOG' }),
   setScrollTop: (scrollTop) => dispatch({ type: 'SET_SCROLL_TOP', scrollTop }),
