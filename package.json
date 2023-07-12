@@ -21,8 +21,8 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
-    "react-resizable": "^3.0.5",
-    "react": "^16.14.0"
+    "react": "^16.14.0",
+    "react-resizable": "^3.0.5"
   },
   "peerDependencies": {
     "@material-ui/core": "^4.11.0",
