@@ -18,10 +18,6 @@ import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import MenuItem from '@material-ui/core/MenuItem';
-
 import Draggable from 'react-draggable';
 import Paper from '@material-ui/core/Paper';
 
@@ -29,13 +25,16 @@ import getRows from './utils';
 
 // eslint-disable-next-line default-param-last
 const compareReducer = (state = {}, action) => {
+  /*
   if (action.type === 'OPEN_WINDOW_DIALOG') {
+    console.log('OPEN_WINDOW_DIALOG');
+    console.log(action.target);
     return {
       ...state,
-      // windowListAnchor: action.target,
-      isDialogOpen: 1,
+      windowListAnchor: action.target,
     };
   }
+  */
 
   /*
 
@@ -60,6 +59,8 @@ const compareReducer = (state = {}, action) => {
     };
   }
   */
+
+  console.log(action.type);
 
   if (action.type === 'SET_COMPARE') {
     return {
@@ -94,11 +95,12 @@ class CompareComponent extends Component {
   }
 
   handleOpen(event) {
+    console.log('handleOpen');
     const { openDialog } = this.props;
 
-    // const currentTarget = event ? event.currentTarget : null;
-    // openDialog(/* currentTarget */1);
-    openDialog();
+    const currentTarget = event ? event.currentTarget : null;
+    console.log('currentTarget', currentTarget);
+    openDialog(currentTarget);
   }
 
   handleStop = (event, ui) => {
@@ -123,16 +125,11 @@ class CompareComponent extends Component {
   }
 
   render() {
-    console.log('⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️');
+    console.log('render');
+    const { state /* , classes */ } = this.props;
 
-    // const { state /* , classes */ } = this.props;
-
-    const state = this.props;
-    console.log('state', state);
-
-    // const stateString = JSON.stringify(state, null, 2);
-    // console.log('stateString', stateString.length);
-    // console.log('stateString', stateString);
+    const stateString = JSON.stringify(state, null, 2);
+    console.log('stateString', stateString.length);
 
     // const containerId = getContainerId(state);
     // console.log('containerId', containerId);
@@ -165,7 +162,6 @@ class CompareComponent extends Component {
 
     return (
       <>
-
         <MiradorMenuButton
           aria-haspopup="true"
           aria-label="List All Annotations"
@@ -177,12 +173,12 @@ class CompareComponent extends Component {
         </MiradorMenuButton>
 
         {/*
-          container={document.querySelector(`#${containerId} .mirador-viewer`)}
+          container={document.querySelector(`#${containerId} .mirador-viewer`)} */}
 
         <div>
           aaa
         </div>
-        */}
+
       </>
     );
   }
@@ -196,7 +192,7 @@ CompareComponent.propTypes = {
   // classes: PropTypes.objectOf(PropTypes.string).isRequired,
   // t: PropTypes.func,
   // eslint-disable-next-line react/forbid-prop-types
-  // state: PropTypes.any.isRequired,
+  state: PropTypes.any.isRequired,
   setXY: PropTypes.func,
 };
 
@@ -228,23 +224,20 @@ const compareAction = (windowId, boxToZoom) => (dispatch) => {
 };
 
 const mapStateToProps = (state) => ({
-  // state,
-  aaa: getContainerId(state),
-  // windowListAnchor: state.compareReducer ? state.compareReducer.windowListAnchor : null,
-  isDialogOpen: state.compareReducer ? state.compareReducer.isDialogOpen : null,
+  state,
 });
 
 const mapDispatchToProps = (dispatch) => ({
   compare: (windowId, boxToZoom) => dispatch(compareAction(windowId, boxToZoom)),
-  openDialog: () => dispatch({ type: 'OPEN_WINDOW_DIALOG' /* , target: currentTarget */ }), // currentTarget
+  openDialog: (currentTarget) => dispatch({ type: 'OPEN_WINDOW_DIALOG', target: currentTarget }),
   closeDialog: () => dispatch({ type: 'CLOSE_WINDOW_DIALOG' }),
   setScrollTop: (scrollTop) => dispatch({ type: 'SET_SCROLL_TOP', scrollTop }),
   setXY: (xy) => dispatch({ type: 'SET_XY', xy }),
 });
 
 export default {
-  target: 'WorkspaceControlPanelButtons',
-  // target: 'WindowTopBarPluginMenu',
+  // target: 'WorkspaceControlPanelButtons',
+  target: 'WindowTopBarPluginMenu',
   mode: 'add',
   component: CompareComponent,
   mapDispatchToProps,
