@@ -38,7 +38,7 @@ jobs:
     - run: npm install
     - run: npm test
     - run: codecov
-    - run: npm build
+    - run: npm run build
     - name: Setup Pages
       uses: actions/configure-pages@v3
     - name: Upload artifact
