@@ -16,14 +16,8 @@ import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
-
 import Draggable from 'react-draggable';
 import Paper from '@material-ui/core/Paper';
-
-import { batch } from 'react-redux';
-import {
-  all, put, select, takeEvery, delay, call,
-} from 'redux-saga/effects';
 import getRows from './utils';
 
 // eslint-disable-next-line default-param-last
@@ -100,6 +94,7 @@ class CompareComponent extends Component {
       const {
         windowId, boxToZoom, canvasUri,
       } = item;
+
       compareDispatcher(windowId, boxToZoom, canvasUri, canvases);
     });
 
@@ -107,7 +102,7 @@ class CompareComponent extends Component {
   }
 
   render() {
-    console.log('⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️');
+    // console.log('⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️');
 
     const state = this.props;
 
@@ -214,6 +209,7 @@ CompareComponent.propTypes = {
   setXY: PropTypes.func,
   // eslint-disable-next-line react/forbid-prop-types
   rows: PropTypes.arrayOf(PropTypes.any),
+  canvases: PropTypes.arrayOf(PropTypes.string),
 };
 
 CompareComponent.defaultProps = {
@@ -226,12 +222,10 @@ CompareComponent.defaultProps = {
   closeDialog: () => { },
   setXY: () => { },
   rows: [],
+  canvases: [],
 };
 
-const compareAction = (windowId, boxToZoom, canvasUri, canvases, type = 1) => (dispatch) => {
-  // async
-  // dispatch(mirador.actions.setCanvas(windowId, canvasUri));
-
+const compareAction = (windowId, boxToZoom, canvasUri, canvases) => (dispatch) => {
   const action1 = mirador.actions.setCanvas(windowId, canvasUri);
 
   const zoomCenter = {
@@ -245,72 +239,19 @@ const compareAction = (windowId, boxToZoom, canvasUri, canvases, type = 1) => (d
     zoom: 1 / boxToZoom.width,
   });
 
-  // dispatch();
-
-  /*
-  batch(() => {
-    dispatch(action1);
-    dispatch(action2);
-  });
-  */
-
   if (canvases.indexOf(canvasUri) === -1) {
     dispatch(action1);
   } else {
     dispatch(action2);
   }
-  /*
-
-  if (type === 1) {
-    dispatch(action1);
-  } else {
-    dispatch(action2);
-  }
-  */
-
-  // dispatch(action1);
-  // dispatch(action2);
-
-  // disable eslint
-
-  /*
-  call(all([
-    put(action1),
-    put(action2),
-  ]));
-  */
-
-  // const firstAction = yield take([action1, action2])
-
-  // await dispatch(action2);
-
-  /*
-  window.setTimeout(() => {
-    // dispatch(action2);
-  }, 3);
-  */
-
-  /*
-  */
-
-  /*
-  await Promise.all([
-    dispatch(mirador.actions.setCanvas(windowId, canvasUri)),
-    dispatch(mirador.actions.updateViewport(windowId, {
-      x: zoomCenter.x,
-      y: zoomCenter.y,
-      zoom: 1 / boxToZoom.width,
-    })),
-  ]);
-  */
 };
 
 const mapStateToProps = (state) => {
   const canvases = [];
   const { windows } = state;
-  for (const windowId in windows) {
+  Object.keys(windows).forEach((windowId) => {
     canvases.push(windows[windowId].canvasId);
-  }
+  });
   return {
     canvases: JSON.stringify(canvases),
     rows: JSON.stringify(getRows(state)),
@@ -321,11 +262,9 @@ const mapStateToProps = (state) => {
 };
 
 const mapDispatchToProps = (dispatch) => ({
-  compareDispatcher:
-    (windowId, boxToZoom, canvasUri, canvases) => {
-      dispatch(compareAction(windowId, boxToZoom, canvasUri, canvases, 1));
-      // dispatch(compareAction(windowId, boxToZoom, canvasUri, canvases, 2));
-    },
+  compareDispatcher: (windowId, boxToZoom, canvasUri, canvases) => {
+    dispatch(compareAction(windowId, boxToZoom, canvasUri, canvases));
+  },
   openDialog: () => dispatch({ type: 'OPEN_WINDOW_DIALOG' }),
   closeDialog: () => dispatch({ type: 'CLOSE_WINDOW_DIALOG' }),
   setScrollTop: (scrollTop) => dispatch({ type: 'SET_SCROLL_TOP', scrollTop }),
