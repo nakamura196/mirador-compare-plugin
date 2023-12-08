@@ -8,7 +8,45 @@
 
 ## 🌐 Website
 
-[Visit the demo page](https://nakamura196.github.io/mirador-comapre-plugin/) to try it out.
+[Visit the demo page](https://nakamura196.github.io/mirador-compare-plugin/) to try it out.
+
+## 📖 Data
+
+Prepare a JSON file with following annotations.
+
+```json
+{
+  "annotations": [
+    {
+        "body": {
+            "type": "TextualBody",
+            "value": "施設: 図書館"
+        },
+        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/187cc82d-11e6-9912-9dd4-b4cca9b10970/canvas/p2#xywh=9628/9582/1352/1236",
+        "type": "Annotation",
+        "motivation": "commenting",
+        "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/187cc82d-11e6-9912-9dd4-b4cca9b10970/canvas/p2#xywh=9628,9582,1352,1236",
+        "_compare": {
+            "id": "t",
+            "label": "図書館"
+        }
+    }
+  ]
+}
+```
+
+The JSON file used on the demo site is as follows.
+
+https://raw.githubusercontent.com/nakamura196/mirador-compare-plugin/main/assets/json/agriculture.json
+
+The `_compare` field is used to compare annotations. The `_compare` field has the following fields.
+
+| Field | Description | 
+| ---- | ---- |
+| id | Common ID for comparing annotations. |
+| label | Label for comparing annotations. |
+
+![](assets/compare.webp)
 
 ## 📖 Installation
 

@@ -66,7 +66,13 @@ function getRows(state) {
           canvasUri, windowId, boxToZoom,
         });
 
-        ids[cid].labels.push(_compare.label || label);
+        const label4anno = _compare.label || label;
+
+        const commonLabels = ids[cid].labels;
+
+        if (commonLabels.indexOf(label4anno) === -1) {
+          commonLabels.push(label4anno);
+        }
       });
     });
   });
