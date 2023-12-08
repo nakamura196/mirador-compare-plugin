@@ -4,7 +4,9 @@
 
 `mirador-compare-plugin` is a Mirador 3 plugin that adds functions to compare annotations.
 
+<a href="https://nakamura196.github.io/mirador-compare-plugin/">
 <img src="assets/demo.webp" width="100%" title="Mirador compare example">
+</a>
 
 ## 🌐 Website
 
