@@ -4,33 +4,15 @@ import miradorComparePlugins from '../../src';
 const config = {
   id: 'demo',
   miradorComparePlugin: {
-    // restrictCompareOnSizeDefinition: true,
   },
   windows: [
+
     {
-      // loadedManifest: 'https://www.hi.u-tokyo.ac.jp/collection/digitalgallery/ryukyu/data/iiif/0001/manifest.json',
-      loadedManifest: 'http://127.0.0.1:5501/local/manifest2.json',
+      loadedManifest: 'https://raw.githubusercontent.com/nakamura196/mirador-compare-plugin/main/assets/json/agriculture.json',
     },
     {
-      // loadedManifest: 'https://www.hi.u-tokyo.ac.jp/collection/digitalgallery/ryukyu/data/iiif/0001/manifest.json',
-      loadedManifest: 'http://127.0.0.1:5501/local/manifest.json',
+      loadedManifest: 'https://raw.githubusercontent.com/nakamura196/mirador-compare-plugin/main/assets/json/shashincho.json',
     },
-    /*
-    {
-      // loadedManifest: 'https://www.hi.u-tokyo.ac.jp/collection/digitalgallery/ryukyu/data/iiif/0001/manifest.json',
-      loadedManifest: 'http://127.0.0.1:5501/local/0001.json',
-    },
-    {
-      // loadedManifest: 'https://www.hi.u-tokyo.ac.jp/collection/digitalgallery/ryukyu/data/iiif/0001/manifest.json',
-      loadedManifest: 'http://127.0.0.1:5501/local/0002.json',
-    },
-    {
-      // loadedManifest: 'https://www.hi.u-tokyo.ac.jp/collection/digitalgallery/ryukyu/data/iiif/0001/manifest.json',
-      loadedManifest: 'http://127.0.0.1:5501/local/0003.json',
-    },
-    */
-    /*
-    */
   ],
 };
 

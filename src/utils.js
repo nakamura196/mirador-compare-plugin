@@ -36,7 +36,14 @@ function getRows(state) {
     Object.keys(canvases[windowId]).forEach((canvasUri) => {
       const annotationsOnCanvas = canvases[windowId][canvasUri];
       annotationsOnCanvas.forEach((annotation) => {
-        const { body, cid, target } = annotation;
+        const { body, _compare, target } = annotation;
+
+        if (!_compare || !_compare.id) {
+          return;
+        }
+
+        const cid = _compare.id;
+
         const label = body.value;
 
         if (!ids[cid]) {
@@ -55,13 +62,11 @@ function getRows(state) {
           height: Number(height),
         };
 
-        // : windowIdCanvasUriMap[canvasUri]
-
         ids[cid].windows.push({
           canvasUri, windowId, boxToZoom,
         });
 
-        ids[cid].labels.push(label);
+        ids[cid].labels.push(_compare.label || label);
       });
     });
   });
