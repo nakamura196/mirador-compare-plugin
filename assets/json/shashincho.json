@@ -1,0 +1,3461 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://mp.ex.nii.ac.jp/api/curation/json/be41046a-43bf-41cb-a541-1be71405a0f2",
+    "label": {
+        "none": [
+            "写真帖『東京帝國大學』明治33年(1900)年版"
+        ]
+    },
+    "type": "Manifest",
+    "items": [
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p1",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[1]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0001-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/7ce76dab06e610895e607c9b53650c7e1d4fc874.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/116",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0001-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p1"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p1/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[2]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0002-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/e9c083a29e2a65ed10d021a8cf8d6274a5227ad5.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/117",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0002-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p2/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p3",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[3]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0003-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/317f6468c78e485760ad4383128e727f6ccb6214.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/118",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0003-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p3"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p3/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p4",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[4]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0004-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/848c3bb0bc4ed6b04d3f4f69730e29f313bf7af5.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/119",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0004-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p4"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p4/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p5",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[5]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0005-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/91fe44f5690b4f5b284598f33486551c3c9e9053.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/120",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0005-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p5"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p5/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p6",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[6]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0006-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/f7bb38353356d3939b36f98f99a6e73874bf12b4.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/121",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0006-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p6"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p6/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p7",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[7]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0007-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/590d639031189c4034b962f6449a90de7430d2fa.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/122",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0007-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p7"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p7/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p8",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[8]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0008-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/69cc91c48c863583d4fbd271176d02ed949cb39d.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/123",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0008-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p8"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p8/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p9",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[9]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0009-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/352570263984c3539016115b263b5c69735bc632.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/124",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0009-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p9"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p9/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p10",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[10]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0010-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/f028e72f9b07d5e352ad383c10104c322993b293.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/125",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0010-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p10"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p10/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p11",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[11]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0011-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/aa916ea0983a4c724b2dd1ab248c1990788b94f3.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/126",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0011-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p11"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p11/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p12",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[12]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0012-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/dc56bae5ffc53d049da89038f3ee42b99c720586.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/127",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0012-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p12"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p12/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p13",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[13]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0013-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/5f511f500c30c959109d2a72bbd3dc87f08be891.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/128",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0013-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p13"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p13/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p14",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[14]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0014-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/5b8549014807460625d25d1b5f262d9284643d98.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/129",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0014-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p14"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p14/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p15",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[15]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0015-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/c93f5dece6ad20996db6c926fc0592a44ebe344d.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/130",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0015-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p15"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p15/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p16",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[16]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0016-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/cfefc5b6b6593667d35c316d51154b6766a26843.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/131",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0016-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p16"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p16/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p17",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[17]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0017-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/e3a06e3944fa966c3c397016a2f6b61fa0a25e19.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/132",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0017-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p17"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p17/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p18",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[18]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0018-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/086cc0879fb69e186faff9ffc48b306d59d237b8.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/133",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0018-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p18"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p18/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p19",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[19]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0019-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/ed6340a37a7a876b6f28233ea541b533557727e8.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/134",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0019-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p19"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p19/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p20",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[20]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0020-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/1ef0375ee1d513e5c3d22ae52ec806fa3c2ec098.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/135",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0020-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p20"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p20/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p21",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[21]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0021-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/c47d826405da87668cdcbeca833da1d1d515381d.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/136",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0021-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p21"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p21/curation",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "赤門"
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p21#xywh=380/355/1816/1332",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p21#xywh=380,355,1816,1332",
+                            "_compare": {
+                                "id": "a",
+                                "label": "赤門"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p22",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[22]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0022-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/bbb072e9993f025a70dde0e443683ddbd88027b6.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/137",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0022-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p22"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p22/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p23",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[23]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0023-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/9bb47083b6902b43c0282a112c4c99fc96411fbb.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/138",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0023-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p23"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p23/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p24",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[24]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0024-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/1c590727dca4ce9c7ba2cfababcdae88ce5ef01a.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/139",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0024-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p24"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p24/curation",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "図書館"
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p24#xywh=396/387/1828/1308",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p24#xywh=396,387,1828,1308",
+                            "_compare": {
+                                "id": "t",
+                                "label": "図書館"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p25",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[25]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0025-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/dec372ee434ee8aee0a9c869176c71043ad13cc4.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/140",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0025-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p25"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p25/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p26",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[26]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0026-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/c7cf13660d9605f22cfa36516a19ab591b0b0af6.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/141",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0026-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p26"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p26/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p27",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[27]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0027-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/da9e9e2e4bfa864a3ccb6f63c156a584fc5dac35.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/142",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0027-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p27"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p27/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p28",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[28]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0028-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/752b5be80a9738f0c3610576bcbdeb615442ee2c.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/143",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0028-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p28"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p28/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p29",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[29]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0029-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/44d9744aa770e30fc5e20ef7f8989e7d4907fe6f.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/144",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0029-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p29"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p29/curation",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "大学中庭泉水ノ景"
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p29#xywh=368/367/1836/1300",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p29#xywh=368,367,1836,1300",
+                            "_compare": {
+                                "id": "i",
+                                "label": "大学中庭泉水ノ景"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p30",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[30]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0030-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/c02ebfc12214681d89c2c2d836dad54c3a52710c.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/145",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0030-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p30"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p30/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p31",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[31]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0031-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/764e0e7a810bacfaa7b5e101a556c586d47c8f26.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/146",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0031-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p31"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p31/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p32",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[32]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0032-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/ed934d7d8c26bcc1f5ecb96ca35a071ac053ba8d.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/147",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0032-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p32"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p32/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p33",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[33]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0033-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/f156cdd46a438a58c7d4469291d5186ed20ae6a9.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/148",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0033-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p33"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p33/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p34",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[34]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0034-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/79b071fabc98f5cfdc945c129ff4a7dd3f44d2d5.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/149",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0034-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p34"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p34/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p35",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[35]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0035-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/4dc853445c62b7ddc7d9e9785230efab5b3bcde2.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/150",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0035-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p35"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p35/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p36",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[36]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0036-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/7e4d13b172bba46b046c887ac2c37b97b6e4bddf.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/151",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0036-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p36"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p36/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p37",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[37]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0037-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/91cf9fd12c5d395f05e75a4deb92e6b17b3b2596.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/152",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0037-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p37"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p37/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p38",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[38]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0038-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/fa7787d0d67323186b0d9da50ba07182bef9653a.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/153",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0038-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p38"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p38/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p39",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[39]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0039-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/b6566d3396ec4b33fe991cebfb53130f566aa2f3.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/154",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0039-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p39"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p39/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p40",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[40]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0040-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/104e6d1c6ee3b67bc8256f8a722fa220d30d12d0.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/155",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0040-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p40"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p40/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p41",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[41]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0041-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/73dafadd8f7f8bdaad2e178a27629f33b44e8a88.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/156",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0041-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p41"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p41/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p42",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[42]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0042-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/d82e3c3c0fa6e9057c2f9ef3f72c0db30111dc83.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/157",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0042-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p42"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p42/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p43",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[43]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0043-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/12fb270dd52f4aee54a5168698e38f5655afb87c.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/158",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0043-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p43"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p43/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p44",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[44]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0044-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/4c30c7a8d8ecfce39210f85a363d302da9f4bd0d.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/159",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0044-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p44"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p44/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p45",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[45]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0045-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/575df1ae859ece14b16f63288179f85abb4cd377.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/160",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0045-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p45"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p45/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p46",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[46]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0046-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/814e0ed2074b5f4c1fc01cf3316f555ef37981b5.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/161",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0046-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p46"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p46/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p47",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[47]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0047-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/7d4210a496a39da054680eb34507969083854c2b.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/162",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0047-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p47"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p47/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p48",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[48]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0048-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/019486aa1f80c1e976fdeb2ba43e4685fffae6b2.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/163",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0048-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p48"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p48/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p49",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[49]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0049-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/7bd3df12d121b77f6fbf336ff2a6a40c31f2bece.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/164",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0049-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p49"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p49/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p50",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[50]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0050-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/07538f1901380e8109bb4c38945f33d802c085ac.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/165",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0050-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p50"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p50/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p51",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[51]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0051-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/b047b657d63eadb38a7e69201ab43b210551bb37.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/166",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0051-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p51"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p51/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p52",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[52]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0052-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/4c135b4a592b1c9bccfa1601fcfdaedff54cbdb5.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/167",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0052-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p52"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p52/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p53",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[53]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0053-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/76aa62bfa2b163683858f7b0350ba2efa38213cc.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/168",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0053-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p53"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p53/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p54",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[54]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0054-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/cceeb8206293fe424fa513e2438a2302ba2e954f.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/169",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0054-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p54"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p54/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p55",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[55]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0055-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/0cc29b9660378f6dffc1c658a53be37cbaa5a0e5.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/170",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0055-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p55"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p55/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p56",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[56]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0056-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/6b4517c558e1b36bff0c8cc717d65e18bf6be436.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/171",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0056-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p56"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p56/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p57",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[57]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0057-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/50a1886f4e0c0ddb71b0b184d33e2bbbd504ed56.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/172",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0057-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p57"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p57/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p58",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[58]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0058-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/9410d49207acd86754e62d22a0a946c534e90d0b.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/173",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0058-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p58"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p58/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p59",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[59]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0059-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/1e42eb7d6336f611235e98599c19ba3a4aea8a04.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/174",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0059-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p59"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p59/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p60",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[60]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0060-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/c0578c5d0cbba32682ea90176d59d1e3f6599ab7.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/175",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0060-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p60"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p60/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p61",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[61]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0061-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/adfba84b38944f7092097773029487128f575dc6.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/176",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0061-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p61"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p61/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p62",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[62]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0062-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/44bbed14151c8e79b917957e3cbe44b5e584a26d.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/177",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0062-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p62"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p62/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p63",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[63]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0063-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/be0ea317886b389d78526780594a5ee8458e3cb1.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/178",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0063-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p63"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p63/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p64",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[64]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0064-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/54ecab3e2f26a67a8166ac8e299c86fa8afea0b0.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/179",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0064-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p64"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p64/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p65",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[65]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0065-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/5e5bbcc8d478afc99fa60b92daa5af5a679667c5.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/180",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0065-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p65"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p65/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p66",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[66]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0066-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/7da8a4f77cd1cdb5960af6681684868d86be1e99.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/181",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0066-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p66"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p66/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p67",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[67]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0067-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/aa0ef188af45a33474d9400a1a9fcb0f2e23edb2.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/182",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0067-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p67"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p67/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p68",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[68]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0068-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/163574212417d5454d8fc56ef538ed80d70cd879.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/183",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0068-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p68"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p68/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p69",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[69]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0069-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/b34ca2a12c02d00401707ab2392699c96aaea86f.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/184",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0069-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p69"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p69/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p70",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[70]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0070-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/8dc907b5b7132aaae4d40c0c6383704f32281156.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/185",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0070-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p70"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p70/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p71",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[71]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0071-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/6a1042631ba6c458e01cc04609bee38487a7f7f1.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/186",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0071-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p71"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p71/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p72",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[72]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0072-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/134020065571a9cdcca42aa22029c8011962d0d9.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/187",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0072-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p72"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p72/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p73",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[73]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0073-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/952fd14145b5f000ad9199de4cab1da9f8a8548b.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/188",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0073-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p73"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p73/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p74",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "[74]"
+                ]
+            },
+            "height": 2040,
+            "width": 2880,
+            "items": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0074-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/original/3f89666ae98c6637d9ffe41d06b224d378f58763.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2040,
+                                "width": 2880,
+                                "service": [
+                                    {
+                                        "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/189",
+                                        "type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            },
+                            "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/annotation/p0074-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p74"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/952f7be5-2dec-40a7-b28a-0d5ccc91124e/canvas/p74/curation",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        }
+    ]
+}
