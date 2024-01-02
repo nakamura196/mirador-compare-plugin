@@ -1,6 +1,6 @@
 {
   "name": "mirador-compare-plugin",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "mirador-compare-plugin React component",
   "main": "lib/index.js",
   "module": "es/index.js",
