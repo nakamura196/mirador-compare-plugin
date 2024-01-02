@@ -1,6 +1,6 @@
 # mirador-compare-plugin
 
-![Node.js CI](https://github.com/nakamura196/mirador-compare-plugin/actions/workflows/node.js.yml/badge.svg)
+![Node.js CI](https://github.com/nakamura196/mirador-compare-plugin/actions/workflows/node.js.yml/badge.svg) [![DOI](https://zenodo.org/badge/664611010.svg)](https://zenodo.org/badge/latestdoi/664611010)
 
 `mirador-compare-plugin` is a Mirador 3 plugin that adds functions to compare annotations.
 
@@ -56,3 +56,9 @@ The `_compare` field is used to compare annotations. The `_compare` field has th
 
 ## Contribute
 Mirador's development, design, and maintenance is driven by community needs and ongoing feedback and discussion. Join us at our regularly scheduled community calls, on [IIIF slack #mirador](http://bit.ly/iiif-slack), or the [mirador-tech](https://groups.google.com/forum/#!forum/mirador-tech) and [iiif-discuss](https://groups.google.com/forum/#!forum/iiif-discuss) mailing lists. To suggest features, report bugs, and clarify usage, please submit a GitHub issue.
+
+## Cite as
+
+[![DOI](https://zenodo.org/badge/664611010.svg)](https://zenodo.org/badge/latestdoi/664611010)
+
+The above DOI corresponds to the latest versioned release as [published to Zenodo](https://zenodo.org/records/10449856), where you will find all earlier releases. To cite `mirador-compare-plugin` independent of version, use https://doi.org/10.5281/zenodo.10449856, which will always redirect to the latest release.
